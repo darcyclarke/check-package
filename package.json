@@ -1,0 +1,23 @@
+{
+  "name": "check-package",
+  "version": "1.0.0",
+  "description": "Tests for package.json &amp; lock files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darcyclarke/check-package.git"
+  },
+  "keywords": [],
+  "author": "Darcy Clarke <darcy@darcyclarke.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darcyclarke/check-package/issues"
+  },
+  "homepage": "https://github.com/darcyclarke/check-package#readme",
+  "dependencies": {
+    "@yarnpkg/lockfile": "^1.1.0"
+  }
+}
